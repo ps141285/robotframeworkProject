@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.12.0 on win32)" generated="2024-11-05T07:13:14.640555" rpa="false" schemaversion="5">
+<suite id="s1" name="TC1" source="C:\Users\Inspiron\Desktop\selenium\robotframework\TestCases\TC1.robot">
+<test id="s1-t1" name="LoginTest" line="11">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-11-05T07:13:15.527555" level="INFO">Opening browser 'chrome' to base url 'https://tutorialsninja.com/demo/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-11-05T07:13:15.526555" elapsed="9.380381"/>
+</kw>
+<kw name="LoginIntoApplication">
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-11-05T07:13:24.921933" level="INFO">Clicking link 'xpath://a[@title='My Account']'.</msg>
+<arg>xpath://a[@title='My Account']</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-05T07:13:24.920936" elapsed="0.909718"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-11-05T07:13:25.831655" level="INFO">Clicking link 'xpath://a[normalize-space()='Login']'.</msg>
+<arg>xpath://a[normalize-space()='Login']</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-05T07:13:25.830654" elapsed="0.467001"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-11-05T07:13:26.299654" level="INFO">Typing text 'manojpratap21@gmail.com' into text field 'xpath://input[@id='input-email']'.</msg>
+<arg>xpath://input[@id='input-email']</arg>
+<arg>manojpratap21@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-05T07:13:26.298654" elapsed="0.625998"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-11-05T07:13:26.925654" level="INFO">Typing text 'manoj@123' into text field 'xpath://input[@id='input-password']'.</msg>
+<arg>xpath://input[@id='input-password']</arg>
+<arg>manoj@123</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-05T07:13:26.924652" elapsed="0.412999"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-11-05T07:13:27.338651" level="INFO">Clicking element 'xpath://input[@value='Login']'.</msg>
+<arg>xpath://input[@value='Login']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-05T07:13:27.338651" elapsed="0.899171"/>
+</kw>
+<status status="PASS" start="2024-11-05T07:13:24.919933" elapsed="3.318889"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-11-05T07:13:28.238822" elapsed="9.977816"/>
+</kw>
+<status status="PASS" start="2024-11-05T07:13:15.523555" elapsed="22.693083"/>
+</test>
+<status status="PASS" start="2024-11-05T07:13:14.644556" elapsed="23.574084"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="TC1">TC1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
