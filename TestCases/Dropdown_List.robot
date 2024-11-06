@@ -17,3 +17,4 @@ Drpdwn_list_test
 drpdwn_list_check
     select from list by label    country    United States
     select from list by value    country    france
+    select from list by index    country    3
